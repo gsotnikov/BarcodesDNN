@@ -5,9 +5,7 @@ from torch.optim.lr_scheduler import LambdaLR
 class TriangleLR(nn.Module):
     def __init__(self, optimizer, epoch_size:int, knots:Tuple[int, int, int],
                  values:Tuple[float, float, float], *args, **kwargs):
-        '''
-        Code is based on https://github.com/universome/loss-patterns/blob/master/src/optims/triangle_lr.py
-        '''
+
         self.epoch_size = epoch_size
         self.knots = knots
         self.values = values
