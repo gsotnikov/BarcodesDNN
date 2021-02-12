@@ -18,5 +18,5 @@ This repository contains implemetation of the outlined papaer.
 
 After execution of following steps the expected result should be:
 
-![Alt text](images/Experiment2_ResNet9_Barcodes_SVHN.png?raw=true "SVHN barcodes for minimas of type (1) & (2)")
+![alt text](https://dl.dropboxusercontent.com/s/ufl072k0w5xdx47/Experiment2_ResNet9_Barcodes_SVHN.png)
 
