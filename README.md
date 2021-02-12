@@ -12,6 +12,11 @@ This repository contains implemetation of the outlined papaer.
 
 `--device` - CUDA/CPU
 
-2) When step `1)` is executed, path between trained minimas can be found by execution of a `ComputeBarcode.ipynb`.
+2) When step `1)` is executed, path between trained minimas can be found by execution of a `ComputeBarcode.ipynb`. **compute_barcode.py** is the implementation of algorithm itself [**Algorithm 3** & **Algorithm 4**] in the paper.
 
 3) To plot figures from the paper, please use `Report.ipynb`.
+
+After execution of following steps the expected result should be:
+
+![Alt text](images/Experiment2_ResNet9_Barcodes_SVHN.png?raw=true "SVHN barcodes for minimas of type (1) & (2)")
+
