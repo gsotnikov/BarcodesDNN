@@ -1,6 +1,6 @@
 # Topological obstructions in neural networks’ learning
 
-This repository contains implemetation of the outlined papaer.
+This repository contains implemetation of the outlined paper.
 
 1) Train N models: `python find_minimas.py --type=1 --dataset=SVHN --N=8 --device=cuda`
 
@@ -16,7 +16,7 @@ This repository contains implemetation of the outlined papaer.
 
 3) To plot figures from the paper, please use `Report.ipynb`.
 
-After execution of following steps the expected result should be:
+After execution of 3 steps the expected result should be:
 
 ![alt text](https://dl.dropboxusercontent.com/s/ufl072k0w5xdx47/Experiment2_ResNet9_Barcodes_SVHN.png)
 
