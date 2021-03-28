@@ -1,4 +1,4 @@
-from schedulet import TriangleLR
+from scheduler import TriangleLR
 from argparse import ArgumentParser
 from resnet import ResNet, MultipleShallowNets
 
