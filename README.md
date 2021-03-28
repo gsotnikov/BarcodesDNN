@@ -1,5 +1,7 @@
 # Topological obstructions in neural networks’ learning
 
+`28 march commit` - no code changes, just 2 fix of typos in the names of functions.
+
 This repository contains implemetation of the outlined paper.
 
 1) Train N models: `python find_minimas.py --type=1 --dataset=SVHN --N=8 --device=cuda`
